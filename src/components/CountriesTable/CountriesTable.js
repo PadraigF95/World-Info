@@ -87,7 +87,7 @@ const CountriesTable = ({countries}) => {
                     <img src={country.flag} alt={country.name} />
                 </div>
             <div className={styles.name}>{country.name}</div>
-            <div className={styles.population}>{country.population.toLocaleString()}</div>
+            <div className={styles.population}>{country.population}</div>
 
             <div className={styles.area}>{country.area || 0}</div>
         </div></Link>
