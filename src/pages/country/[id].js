@@ -52,12 +52,12 @@ const [borders, setBorders] = useState([]);
 
                 <div className={styles.overview_numbers}>
                     <div className={styles.overview_population}>
-                        <div className={styles.overview_value}>{country.population.toLocaleString()}</div>
+                        <div className={styles.overview_value}>{country.population}</div>
                         <div className={styles.overview_label}>Population</div>
                     </div>
 
                     <div className={styles.overview_area}>
-                    <div className={styles.overview_value}>{country.area.toLocaleString()}</div>
+                    <div className={styles.overview_value}>{country.area}</div>
                         <div className={styles.overview_label}>Area</div>
                     </div>
                 </div>
