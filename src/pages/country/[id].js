@@ -1,7 +1,7 @@
 import styles from "./Country.module.css";
 import Layout from "../../components/Layout/Layout";
 import {useState, useEffect} from "react";
-import Link from "next/Link";
+import Link from "next/link";
 import ArrowBackRoundedIcon from '@material-ui/icons/ArrowBackRounded';
 
 const getCountry = async (id) => {
