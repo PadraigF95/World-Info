@@ -154,7 +154,7 @@ export default Country;
 
 export const getStaticPaths = async () => {
 
-    const res = await fetch('https://restcountries.eu/rest/v2/all');
+    const res = await fetch('https://restcountries.com/v3.1/all');
     const countries = await res.json();
 
     const paths = countries.map(country => ({
