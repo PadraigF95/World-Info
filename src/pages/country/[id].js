@@ -5,7 +5,7 @@ import Link from "next/link";
 import ArrowBackRoundedIcon from '@material-ui/icons/ArrowBackRounded';
 
 const getCountry = async (id) => {
-    const res = await fetch(`https://restcountries.com/rest/v3.1/alpha/${id}`);
+    const res = await fetch(`https://restcountries.com/v3.1/alpha/${id}`);
 
     const country = await res.json();
 
